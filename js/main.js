@@ -4,7 +4,8 @@ new Vue({
   	effectClasses: {
     	highlight: false,
       shrink: true
-    }
+    },
+    
  		
   },
   methods: {

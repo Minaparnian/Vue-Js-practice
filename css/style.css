@@ -23,6 +23,11 @@
   float: right;
 }
 
-.yellow {
-  background-color: yellow;
+.blue {
+  background-color: blue;
+}
+.visible {
+  width: 100px;
+  height:50px;
+  border: 1px solid black;
 }

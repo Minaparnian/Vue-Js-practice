@@ -31,3 +31,9 @@
   height:50px;
   border: 1px solid black;
 }
+
+.progress-bar {
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+}

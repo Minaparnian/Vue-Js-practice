@@ -12,7 +12,12 @@ new Vue({
       height: '150px',
       backgroundColor: 'red'
       
-    }
+    },
+    progressStyle: {
+      width: '0px',
+      backgroundColor: 'red',  
+    },
+    
     
  		
   },
@@ -24,7 +29,15 @@ new Vue({
         vm.effectClasses.shrink = !vm.effectClasses.shrink;
       }, 1000);
     },
+    startProgress: function() {
+      var vm = this;
+      var width = 0;
+      setInterval(function() {
+        width = width + 10;
+        vm.progressStyle.width = width 
+        + 'px'
+    }, 500);
 
-    
+  }
   }
 });

@@ -5,7 +5,8 @@ new Vue({
     	highlight: false,
       shrink: true
     },
-    userClass: ''
+    userClass: '',
+    isVisible: true
     
  		
   },

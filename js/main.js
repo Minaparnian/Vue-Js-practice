@@ -6,7 +6,13 @@ new Vue({
       shrink: true
     },
     userClass: '',
-    isVisible: true
+    isVisible: true,
+    myStyle: {
+      width: '100px',
+      height: '150px',
+      backgroundColor: 'red'
+      
+    }
     
  		
   },
@@ -18,6 +24,7 @@ new Vue({
         vm.effectClasses.shrink = !vm.effectClasses.shrink;
       }, 1000);
     },
+
     
   }
 });

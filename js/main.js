@@ -7,6 +7,7 @@ new Vue({
       author: 'J.R.R. Tolkiens',
       books: '3'
     },
+    show: true,
     testData: {
       name: 'TESTOBJECT', 
       id: 10,

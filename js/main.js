@@ -8,6 +8,7 @@ new Vue({
       books: '3'
     },
     show: true,
+    see: true,
     testData: {
       name: 'TESTOBJECT', 
       id: 10,
